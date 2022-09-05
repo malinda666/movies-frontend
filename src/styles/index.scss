@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.section {
+  @apply relative w-full h-auto flex items-center justify-center;
+}
+
+.title {
+  @apply font-semibold text-3xl;
+}
